@@ -1,4 +1,4 @@
-package __35_searchInsert;
+package _35_searchInsert;
 
 public class SearchInsert {
 
