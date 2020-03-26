@@ -1,4 +1,4 @@
-package _27_removeElement;
+package _027_removeElement;
 
 import java.util.Arrays;
 
