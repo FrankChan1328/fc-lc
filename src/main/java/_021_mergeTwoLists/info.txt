@@ -1,0 +1,12 @@
+Description：
+    Merge two sorted linked lists and return it as a new list. The new list should be made by splicing together the nodes of the first two lists.
+
+Example:
+    Input: 1->2->4, 1->3->4
+    Output: 1->1->2->3->4->4
+
+解析：
+	* The key to solve the problem is defining a fake head. Then compare the first elements from each list. Add the smaller one to the merged list. Finally, when one of them is empty, simply append it to the merged list, since it is already sorted.
+	* 定义一个fake head（取值为0），然后比较每个list 将最小的加入 merged list
+	* 到最后，如果有一个已经空了，则将另外一个完全加入
+
